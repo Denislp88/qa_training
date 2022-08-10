@@ -14,4 +14,4 @@ element = driver.find_element(By.XPATH, '//*[@id="header"]/div[1]/div[4]/div/div
 element.click()
 
 print('Title: %s' % browser.title)
-#browser.quit()
+#browser.quit()  пока не используем
