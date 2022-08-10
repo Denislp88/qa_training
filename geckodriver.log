@@ -1,0 +1,31 @@
+1660120126673	geckodriver	INFO	Listening on 127.0.0.1:56483
+1660120129767	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56484" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofileuqV79Z"
+1660120193080	geckodriver	INFO	Listening on 127.0.0.1:56545
+1660120196165	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56546" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilenUN9HO"
+1660120198829	Marionette	INFO	Marionette enabled
+1660120198838	Marionette	INFO	Listening on port 56559
+WebDriver BiDi listening on ws://localhost:56546
+Read port: 56559
+1660120199809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 769))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 421))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilenUN9HO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56546/devtools/browser/3e29a124-98b5-4907-b9b8-2e4d9c88cb13
+1660120245448	Marionette	INFO	Stopped listening on port 56559
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660120287378	geckodriver	INFO	Listening on 127.0.0.1:56753
+1660120290526	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56754" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilevLdAhp"
+1660120291661	Marionette	INFO	Marionette enabled
+1660120291667	Marionette	INFO	Listening on port 56763
+Read port: 
+1660120291671	geckodriver::browser	WARN	Failed fo convert  to u16
+WebDriver BiDi listening on ws://localhost:56754
+Read port: 56763
+1660120292403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilevLdAhp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56754/devtools/browser/3c2f6af0-6a77-40bd-a9ce-c2e5a58eff10
+JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
+1660120303674	Marionette	INFO	Stopped listening on port 56763
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+[Parent 8400, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
