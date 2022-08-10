@@ -56,8 +56,9 @@ Read port: 56877
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofileiGYlga\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:56867/devtools/browser/c1b2a3bf-01c3-41c1-b1d5-5afd54a64117
 JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
-1660122705372	geckodriver	INFO	Listening on 127.0.0.1:57032
-1660122708305	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57033" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofile5xO7FY"
+1660123146160	Marionette	INFO	Stopped listening on port 56877
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e" "--remote-debugging-port" "57033" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofile5xO7FY"
 1660122710679	Marionette	INFO	Marionette enabled
 1660122710684	Marionette	INFO	Listening on port 57054
 WebDriver BiDi listening on ws://localhost:57033
@@ -66,8 +67,10 @@ Read port: 57054
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofile5xO7FY\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:57033/devtools/browser/0651d7f0-c838-45b3-a8ce-ec1938eae2fe
 JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
-1660122746945	geckodriver	INFO	Listening on 127.0.0.1:57201
-1660122750169	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57202" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilepA2yyZ"
+1660123147186	Marionette	INFO	Stopped listening on port 57054
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilepA2yyZ"
 1660122750682	Marionette	INFO	Marionette enabled
 1660122750687	Marionette	INFO	Listening on port 57212
 WebDriver BiDi listening on ws://localhost:57202
@@ -77,3 +80,22 @@ Read port: 57212
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilepA2yyZ\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:57202/devtools/browser/f091e79d-159d-41af-a8e3-5086c5557ed5
 JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
+1660123148188	Marionette	INFO	Stopped listening on port 57212
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.jsm:117:1
+NetworkError@resource://services-settings/RemoteSettingsClient.jsm:121:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:859:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:764:38
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
