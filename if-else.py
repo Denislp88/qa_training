@@ -35,7 +35,7 @@ else:
 
 ################################################ https://pythoninfo.ru/osnovy/if-else-python
 
-x = 'конь'
+x = 'коняга'
 if x == 'конь':
     print('поскакали')
 else:
