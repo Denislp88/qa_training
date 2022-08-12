@@ -32,3 +32,11 @@ elif глаза == "голубые":
         pass
 else:
     pass
+
+################################################ https://pythoninfo.ru/osnovy/if-else-python
+
+x = 'конь'
+if x == 'конь':
+    print('поскакали')
+else:
+    print('стоим')
