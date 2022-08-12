@@ -99,3 +99,13 @@ console.warn: services.settings: main/devtools-compatibility-browsers sync inter
 console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
 console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
 console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+1660299647194	geckodriver	INFO	Listening on 127.0.0.1:62043
+1660299650385	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62044" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilei0whzO"
+1660299652437	Marionette	INFO	Marionette enabled
+1660299652469	Marionette	INFO	Listening on port 62053
+WebDriver BiDi listening on ws://localhost:62044
+Read port: 62053
+1660299653318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilei0whzO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62044/devtools/browser/86681cbc-9a7c-4802-91bf-6eb8b8c5c1df
+JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
