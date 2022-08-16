@@ -109,3 +109,17 @@ Read port: 62053
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilei0whzO\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:62044/devtools/browser/86681cbc-9a7c-4802-91bf-6eb8b8c5c1df
 JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
+1660302205771	Marionette	INFO	Stopped listening on port 62053
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660631898569	geckodriver	INFO	Listening on 127.0.0.1:58316
+1660631901665	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58317" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilehNrBeC"
+1660631903904	Marionette	INFO	Marionette enabled
+1660631903916	Marionette	INFO	Listening on port 58326
+WebDriver BiDi listening on ws://localhost:58317
+Read port: 58326
+1660631904420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilehNrBeC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58317/devtools/browser/c6cff4bc-6b46-43a2-af13-98ca8ad7dc61
+JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
+1660631944811	Marionette	INFO	Stopped listening on port 58326
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
