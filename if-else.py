@@ -40,3 +40,6 @@ if x != 'конь':
     print('поскакали')
 else:
     print('стоим')
+
+
+    ###############from selenium.webdriver import Firefox
