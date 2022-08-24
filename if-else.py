@@ -42,4 +42,19 @@ else:
     print('стоим')
 
 
-    ###############from selenium.webdriver import Firefox
+###############from selenium.webdriver import Firefox
+
+жена = "позвонит"
+скажет = "освободилась"
+if жена == "непозвонит":
+    print('иду один')
+elif жена == "позвонит":
+    if скажет == "освободилась":
+        print('идем вместе!')
+    else:
+        pass
+else:
+    pass
+
+###############
+
