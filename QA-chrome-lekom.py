@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-s=Service('./chrome/chromedriver' )
+s=Service('./chrome/105/chromedriver' )
 driver = webdriver.Chrome(service=s)
 
 driver.get('https://lekomtsev.turbo.site/')
