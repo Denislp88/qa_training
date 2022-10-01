@@ -109,6 +109,7 @@ Read port: 62053
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\4B65~1\\AppData\\Local\\Temp\\rust_mozprofilei0whzO\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:62044/devtools/browser/86681cbc-9a7c-4802-91bf-6eb8b8c5c1df
 JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
+<<<<<<< Updated upstream
 1660302205771	Marionette	INFO	Stopped listening on port 62053
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 1660631898569	geckodriver	INFO	Listening on 127.0.0.1:58316
@@ -469,3 +470,17 @@ DevTools listening on ws://localhost:54946/devtools/browser/c4088c69-704f-4917-8
 1662826384450	Marionette	INFO	Stopped listening on port 54955
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 >>>>>>> 389b3b0f1701087474fb9ed36edd3699989924e2
+=======
+1660983076998	geckodriver	INFO	Listening on 127.0.0.1:59248
+1660983080055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileEZLBOD"
+1660983080512	Marionette	INFO	Marionette enabled
+1660983080518	Marionette	INFO	Listening on port 59260
+WebDriver BiDi listening on ws://localhost:59249
+Read port: 59260
+1660983080777	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileEZLBOD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59249/devtools/browser/8ec71be8-1380-4669-a4bc-d78eb6dff5e4
+JavaScript error: https://campaign.manzanagroup.ru/cdn/kcentr.min.js, line 1: SyntaxError: expected expression, got '<'
+1660983092092	Marionette	INFO	Stopped listening on port 59260
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+>>>>>>> Stashed changes
